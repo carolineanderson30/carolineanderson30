@@ -1,0 +1,141 @@
+body{
+	background-image: url(pinkbackground.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family : "Trebuchet MS";
+}
+a:hover {
+  background-color: plum;
+}
+th, td{
+	padding:3px;
+}
+tr:nth-child(even) {
+  background-color: grey;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+#header {
+	font-size: 15pt;
+	font-weight: bold;
+	background-color: lavender;
+	color: plum;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: white solid 1px;
+	padding-bottom: 10px;
+}
+#header h3 {
+	margin-top: 0;
+	color: lightpink;
+	margin-bottom: 5;
+}
+#header h1 {
+	margin-top: 5;
+	margin-bottom: 5;
+}
+#header a {
+	font-weight: normal;
+	color: steelblue;
+	font-size: 10pt;
+}
+#content{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+	width: 70%;
+	display: flex;
+	justify-content: center;
+}
+#info{
+	background-color: lavender;
+	border: plum solid 2px;
+	float:left;
+}
+#info h4{
+	margin-top: 10;
+	text-align: center;
+}
+#info a{
+	text-align: center;
+	color: lightpink;
+	font-weight: normal;
+}
+#info img{
+	width:170px;
+	height:170px;
+}
+#lists{
+	float:left;
+	background-color: lightpink;
+	width:500px;
+	color:white;
+	padding: 10px;
+	margin-left: 5px;
+	font-size: 13pt;
+}
+#lists h3{
+	text-align: center;
+	margin-bottom: 0px;
+}
+#lists a {
+	font-style: italic;
+	color: white;
+}
+#Hobbies{
+	float:left;
+	margin-left: 10px;
+	margin-right: 40px;
+	width: 40%;
+}
+#Artists{
+	float:left;
+	width: 40%;
+}
+#zebratable{
+	width: 400px;
+	text-align: center;
+	background-color: lavender;
+	padding-bottom: 20px;
+	color: plum;
+	border: plum solid 2px;
+}
+#zebratable table{
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+	border-spacing: 0;
+	width: 350px;
+	height: 200px;
+}
+#zebratable a {
+	font-weight: normal;
+	color: indigo;
+	font-size: 12pt;
+}
+#quote{
+	width: 25%;
+	font-size: 20pt;
+	color: black;
+	padding: 15px;
+}
+#NestedList{
+	background-color: lavender;
+	width:500px;
+	color:black;
+	padding: 10px;
+	margin-left: 5px;
+	font-size: 13pt;
+	border: plum solid 2px;
+}
+#NestedList h3{
+	color: lightpink;
+	margin-bottom: 2px;
+}
+.redtext{
+	color:red;
+	font-weight: bold;
+}
+}
